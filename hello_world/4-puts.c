@@ -1,12 +1,11 @@
 #include <stdio.h>
 /*
- * main - entry point of the script
+ * main - Entry point of the script
  *
- * Rerutn: Always Zero
+ * Return: Always Zero
  */
 int main(void)
 {
-  puts("Programming is like building a multilingual puzzle");
-
+  puts("\"Programming is like building a multilingual puzzle");
   return (0);
 }
