@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_bumbers - print numbers from 0 to 14 ten times
+ * more_numbers - print numbers from 0 to 14 ten times
  * Description: Prints numbers 0 to 14 ten times using _putchar
  * each followed by a new line
  *
