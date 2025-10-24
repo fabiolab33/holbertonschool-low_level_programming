@@ -22,5 +22,4 @@ for (i = start; i < length; i++)
 _putchar(str[i]);
 
 _putchar('\n');
- 
 }
