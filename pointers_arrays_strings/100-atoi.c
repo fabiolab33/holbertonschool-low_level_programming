@@ -12,6 +12,7 @@ int i = 0;
 int sing = 1;
 int result = 0;
 int started = 0;
+int digit;
 
 while (s[i] != '\0')
 {
@@ -26,7 +27,7 @@ digit = s[i] - '0';
 
 if (result > (2147483647 - digit) / 10)
 {
-if (sign == 1)
+if (sing == 1)
 return (2147483647);
 else
 return (-2147483648);
