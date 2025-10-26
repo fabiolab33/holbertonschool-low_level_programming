@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+ * _strcpy - Ccopies a string
+ * @dest: destination string
+ * @src: source string
+ * @n: number of bytes to copy from src
+ *
+ * Description: it copies at most n bytes from src to dest. If src is less
+ * than n bytes, the remainder of dest will be filled with null bytes.
+ * Return: Pointer to the resulting string dest
+ */
+char *_strncpy(char *dest, char *src, int n)
+{
+int i;
+
+i = 0;
+while (i < n && src[i] != '\0')
+{
+dest[i] = src[i];
+i++;
+}
+while (i < n)
+{
+dest[i] = '\0';
+i++;
+}
+return (dest);
+}
