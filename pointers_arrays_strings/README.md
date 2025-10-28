@@ -8,11 +8,17 @@ Takes a pointer an int and updates the value it points to 98.
 0-strcat.c
 Funtion that concatenates two strings.
 
+0-memset.c
+Fills memory with a constant byte.
+
 1-swap.c
 Swaps the values of two integers.
 
 1-strncat.c
 Funtion that concatenates two strings using at most n bytes
+
+1-memcpy.c
+Copies memory area.
 
 2-strlen.c
 Returns the length of a string.
@@ -20,11 +26,17 @@ Returns the length of a string.
 2-strncpy.c
 Funtion that copies a string.
 
+2-strchr.c
+Locates a character in a string.
+
 3-puts.c
 Prints a string, followed by a new line, to stdout.
 
 3-strcmp.c
 Funtion thats compares two satrings.
+
+3-strspn.c
+Gets the length of a prefix substring.
 
 4-print_rev.c
 Prints a string in reverse.
@@ -32,11 +44,17 @@ Prints a string in reverse.
 4-rev_array.c
 Funtion that reverses the content of an array of integers
 
+4-strpbrk.c
+Searches a string for any of a set of bytes
+
 5-rev_string.c
 Reverses a string.
 
 5-string_toupper.c
 Funtion that changes all lowecase letter to uppercase.
+
+5-strstr.c
+Locates a substring
 
 6-puts2.c
 Prints every other character of a string, starting with the first character.
@@ -50,8 +68,14 @@ Prints half of a string.
 7-leet.c
 Funtion that encodes a string into 1337
 
+7-print_chessboard.c
+Print a chessboard.
+
 8-print_array.c
 Print 'n' elements of an array of integers.
+
+8-print_diagsums.c
+Prints the sum of two diagonals of a square matrix.
 
 9-strcpy.c
 Copies the tring pointed to by 'src' into 'dest'.
