@@ -16,7 +16,7 @@ int found;
 
 for (i = 0; s[i] != '\0'; i++)
 {
-found =0;
+found = 0;
 for (j = 0; accept[j] != '\0'; j++)
 {
 if (s[i] == accept[j])
