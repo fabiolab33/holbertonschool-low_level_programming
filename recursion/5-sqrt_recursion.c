@@ -1,11 +1,15 @@
 #include "main.h"
 
 /**
- * find_sqrt_down - helper to funtion to find the natural square root
- * @n: the number to find the root of
+ * find_sqrt_down - find the natural square root
+ * @n: number to find the square root of
  * @x: current number being tested
  *
- * Return: the natural square root, or -1 if it doesn't exist
+ * Description: this helper funtion uses recursion to test
+ * incrementally which number squared equals @n. It returns
+ * the natural square root if found, or -1 otherwise.
+ *
+ * Return: the natural square root, or -1 if none exists
  */
 int find_sqrt(int n, int x)
 {
