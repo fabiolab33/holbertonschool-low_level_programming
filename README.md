@@ -17,3 +17,6 @@ Learning how to use pointers, arrays, and strings in C, and how to manipulate th
 
 6. *recursion*
 Each funtion calls itself to solve problems like printing strings, calculating factorials, power, square roots, and checking prime numbers.
+
+7. *argc_argv*
+Learn to use command-line arguments in C to read inputs and perform basic operations.
