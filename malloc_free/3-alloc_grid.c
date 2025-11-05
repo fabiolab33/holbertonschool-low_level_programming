@@ -25,14 +25,14 @@ for (h = 0; h < height; h++)
 grid[h] = malloc(sizeof(int) * width);
 if (grid[h] == NULL)
 {
-  while (h >= 0)
-    {
-      free(grid[h]);
-      h--;
-    }
-  free(grid);
-  return (NULL);
- }
+while (h >= 0)
+{
+free(grid[h]);
+h--;
+}
+free(grid);
+return (NULL);
+}
 
 for (w = 0; w < width; w++)
 grid[h][w] = 0;
