@@ -20,3 +20,6 @@ Each funtion calls itself to solve problems like printing strings, calculating f
 
 7. *argc_argv*
 Learn to use command-line arguments in C to read inputs and perform basic operations.
+
+8. *malloc_free*
+This project focuses on learning dynamic memory allocation in C using malloc and free
