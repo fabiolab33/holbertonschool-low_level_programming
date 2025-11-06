@@ -22,7 +22,7 @@ return (NULL);
 if (name != NULL)
 {
 d->name = malloc(strlen(name) + 1);
-if (d-> == NULL)
+if (d->name == NULL)
 {
 free(d);
 return (NULL);
