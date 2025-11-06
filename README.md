@@ -23,3 +23,9 @@ Learn to use command-line arguments in C to read inputs and perform basic operat
 
 8. *malloc_free*
 This project focuses on learning dynamic memory allocation in C using malloc and free
+
+9. *more_malloc_free*
+The project focuses on dynamic memory allocation in C.
+
+10. *structures_typedef*
+This project focuses in learning how to use structures and typedef in C.
