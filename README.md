@@ -29,3 +29,6 @@ The project focuses on dynamic memory allocation in C.
 
 10. *structures_typedef*
 This project focuses in learning how to use structures and typedef in C.
+
+11. *function_pointers*
+The project explore the use of fuction pointers in C.
