@@ -4,39 +4,39 @@
 
 /**
  * print_all - prints anything
- * @format: list of argument types
+ * @format: list of argument types of arguments passed to the function
  */
 void print_all(const char * const format, ...)
 {
 va_list args;
-unsigned int i = 0, j;
+int i = 0;
 char *str, *sep = "";
-char t[] = "cifs";
 
-va_start(args, format);
+va_start(args, format); 
 while (format && format[i])
 {
-j = 0;
-while (t[j])
+switch (format[i])
 {
-if (format[i] == t[j])
-{
-printf("%s", sep);
-if (t[j] == 'c')
-printf("%c", va_arg(args, int));
-if (t[j] == 'i')
-printf("%d", va_arg(args, int));
-if (t[j] == 'f')
-printf("%f", (float)va_arg(args, double));
-if (t[j] == 's')
-{
+case 'c':
+printf("%s%c", separator, va_arg(args, int));
+break;
+case 'i':
+printf("%s%d", separator, va_arg(args, int));
+break;
+case 'f':
+printf("%s%f", separator, va_arg(args, double));
+break;
+case 's':
 str = va_arg(args, char *);
-printf("%s", str ? str : "(nil)");
+if (!str)
+str = "(nil)";
+printf("%s%s", sep, str);
+break;
+default:
+i++;
+continue;
 }
 sep = ", ";
-}
-j++;
-}
 i++;
 }
 printf("\n");
