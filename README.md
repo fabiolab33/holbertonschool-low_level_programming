@@ -32,3 +32,9 @@ This project focuses in learning how to use structures and typedef in C.
 
 11. *function_pointers*
 The project explore the use of fuction pointers in C.
+
+12. *singly_linked_list*
+This project focuses on understanding and implementing singly linked lists in C.
+
+13. *doubly_linked_lists*
+This project focuses on understanding and implementing doubly linked lists in C.
