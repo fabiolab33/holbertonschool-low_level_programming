@@ -38,3 +38,6 @@ This project focuses on understanding and implementing singly linked lists in C.
 
 13. *doubly_linked_lists*
 This project focuses on understanding and implementing doubly linked lists in C.
+
+14. *file_io*
+This project explores the use of file descriptors, POSIX system calls, and basic file operations in C on Linux. Each task demonstrates a different aspect of working with files.
